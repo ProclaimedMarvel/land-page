@@ -1,0 +1,107 @@
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  flex: 1;
+}
+
+.top-section {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 8px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
+  padding-left: 30px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.placeholder {
+  margin: 0 50px 0;
+}
+
+.placeholder .main {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.placeholder .submain {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.random {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.random p {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.random div {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid lightblue;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
+}
+
+.quote .author {
+  font-size: 20px;
+}
+
+.action {
+  background-color: white;
+}
+
+.action button {
+  background-color: #3882f6;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+}
